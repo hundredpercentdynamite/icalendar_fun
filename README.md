@@ -5,3 +5,6 @@
 
 ## Запуск
 $node calendar.js
+
+### Генератор повторения события
+https://www.textmagic.com/free-tools/rrule-generator
