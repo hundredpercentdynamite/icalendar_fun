@@ -11,7 +11,7 @@ const mapDayToName = {
     'day_5': 'FR',
     'day_6': 'SA'
 };
-const rawJson = fs.readFileSync('./13.09.json');
+const rawJson = fs.readFileSync('./20.09.json');
 const { schedule_header, schedule } = JSON.parse(rawJson);
 
 const formatStartDate = (date, time) => {
@@ -38,10 +38,10 @@ bellList.forEach((currBell) => {
                     title: subject_name + ' ' + room_name,
                     description: type + '\n' + teachers[0].name,
                     busyStatus: 'BUSY',
-                    recurrenceRule: `FREQ=WEEKLY;BYDAY=${mapDayToName[currDay]};INTERVAL=2`
+                    recurrenceRule: `FREQ=WEEKLY;BYDAY=${mapDayToName[currDay]};INTERVAL=2;UNTIL=20211231T210000Z`
                 }
                 ics.createEvent(event, (error, value) => {
-                    fs.writeFileSync(`${__dirname}/upper/${subject_name}_${type}_${date}_${start}.ics`, value);
+                    fs.writeFileSync(`${__dirname}/lower/${subject_name}_${type}_${date}_${start}.ics`, value);
                 });
             })
         }
