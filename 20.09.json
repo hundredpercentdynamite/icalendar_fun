@@ -1,0 +1,665 @@
+{
+    "status": "FOUND",
+    "start_date": "2021-09-20",
+    "start_date_show": "20 сентября 2021",
+    "end_date": "2021-09-25",
+    "end_date_show": "25 сентября 2021",
+    "prev_date": "2021-09-13",
+    "next_date": "2021-09-27",
+    "teacher_id": null,
+    "group_id": "6443",
+    "room_id": null,
+    "schedule_header": {
+      "header": {
+        "type": "static",
+        "text": "Время"
+      },
+      "day_1": {
+        "type": "listable",
+        "text": "понедельник ",
+        "short_text": "Пн",
+        "date": "20.09.21"
+      },
+      "day_2": {
+        "type": "listable",
+        "text": "вторник ",
+        "short_text": "Вт",
+        "date": "21.09.21"
+      },
+      "day_3": {
+        "type": "listable",
+        "text": "среда ",
+        "short_text": "Ср",
+        "date": "22.09.21"
+      },
+      "day_4": {
+        "type": "listable",
+        "text": "четверг ",
+        "short_text": "Чт",
+        "date": "23.09.21"
+      },
+      "day_5": {
+        "type": "listable",
+        "text": "пятница ",
+        "short_text": "Пт",
+        "date": "24.09.21"
+      },
+      "day_6": {
+        "type": "listable",
+        "text": "суббота ",
+        "short_text": "Сб",
+        "date": "25.09.21"
+      }
+    },
+    "schedule": {
+      "bell_1": {
+        "header": {
+          "type": "bell",
+          "start_lesson": "09:00",
+          "end_lesson": "10:35"
+        },
+        "day_1": {
+          "type": "lesson",
+          "lessons": []
+        },
+        "day_2": {
+          "type": "lesson",
+          "lessons": [
+            {
+              "subject_id": 1881,
+              "subject_name": "Основы теории информации",
+              "teachers": [
+                {
+                  "id": 124471,
+                  "post": "старший преподаватель",
+                  "name": "Шоломов Д.Л."
+                }
+              ],
+              "groups": [
+                {
+                  "id": 6443,
+                  "name": "БПМ-19-3"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": 683,
+                  "name": "К-513"
+                }
+              ],
+              "room_id": 683,
+              "room_name": "К-513",
+              "type": "Практические",
+              "in_ceiling": true,
+              "other": null,
+              "other1": null
+            }
+          ]
+        },
+        "day_3": {
+          "type": "lesson",
+          "lessons": []
+        },
+        "day_4": {
+          "type": "lesson",
+          "lessons": []
+        },
+        "day_5": {
+          "type": "lesson",
+          "lessons": []
+        },
+        "day_6": {
+          "type": "lesson",
+          "lessons": [
+            {
+              "subject_id": 1881,
+              "subject_name": "Основы теории информации",
+              "teachers": [
+                {
+                  "id": 62037,
+                  "post": "доцент",
+                  "name": "Проничкин С.В."
+                }
+              ],
+              "groups": [
+                {
+                  "id": 6443,
+                  "name": "БПМ-19-3"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": 106,
+                  "name": "К-311"
+                }
+              ],
+              "room_id": 106,
+              "room_name": "К-311",
+              "type": "Лекционные",
+              "in_ceiling": true,
+              "other": null,
+              "other1": null
+            }
+          ]
+        }
+      },
+      "bell_2": {
+        "header": {
+          "type": "bell",
+          "start_lesson": "10:50",
+          "end_lesson": "12:25"
+        },
+        "day_1": {
+          "type": "lesson",
+          "lessons": [
+            {
+              "subject_id": 5781,
+              "subject_name": "Иностранный язык",
+              "teachers": [
+                {
+                  "id": null,
+                  "post": null,
+                  "name": null
+                }
+              ],
+              "groups": [
+                {
+                  "id": 6443,
+                  "name": "БПМ-19-3"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": 324,
+                  "name": "Каф. ИЯКТ"
+                }
+              ],
+              "room_id": 324,
+              "room_name": "Каф. ИЯКТ",
+              "type": "Практические",
+              "in_ceiling": true,
+              "other": null,
+              "other1": null
+            }
+          ]
+        },
+        "day_2": {
+          "type": "lesson",
+          "lessons": [
+            {
+              "subject_id": 809,
+              "subject_name": "Математическое моделирование",
+              "teachers": [
+                {
+                  "id": 46600,
+                  "post": "доцент",
+                  "name": "Крапухина Н.В."
+                }
+              ],
+              "groups": [
+                {
+                  "id": 6443,
+                  "name": "БПМ-19-3"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": 755,
+                  "name": "А-308"
+                }
+              ],
+              "room_id": 755,
+              "room_name": "А-308",
+              "type": "Лекционные",
+              "in_ceiling": true,
+              "other": null,
+              "other1": null
+            }
+          ]
+        },
+        "day_3": {
+          "type": "lesson",
+          "lessons": [
+            {
+              "subject_id": 5781,
+              "subject_name": "Иностранный язык",
+              "teachers": [
+                {
+                  "id": null,
+                  "post": null,
+                  "name": null
+                }
+              ],
+              "groups": [
+                {
+                  "id": 6443,
+                  "name": "БПМ-19-3"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": 324,
+                  "name": "Каф. ИЯКТ"
+                }
+              ],
+              "room_id": 324,
+              "room_name": "Каф. ИЯКТ",
+              "type": "Практические",
+              "in_ceiling": true,
+              "other": null,
+              "other1": null
+            }
+          ]
+        },
+        "day_4": {
+          "type": "lesson",
+          "lessons": [
+            {
+              "subject_id": 4345,
+              "subject_name": "Численные методы",
+              "teachers": [
+                {
+                  "id": 113351,
+                  "post": "доцент",
+                  "name": null
+                }
+              ],
+              "groups": [
+                {
+                  "id": 6443,
+                  "name": "БПМ-19-3"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": 369,
+                  "name": "Б-934"
+                }
+              ],
+              "room_id": 369,
+              "room_name": "Б-934",
+              "type": "Лекционные",
+              "in_ceiling": true,
+              "other": null,
+              "other1": null
+            }
+          ]
+        },
+        "day_5": {
+          "type": "lesson",
+          "lessons": []
+        },
+        "day_6": {
+          "type": "lesson",
+          "lessons": [
+            {
+              "subject_id": 3213,
+              "subject_name": "Теория автоматов и алгоритмов",
+              "teachers": [
+                {
+                  "id": 62037,
+                  "post": "доцент",
+                  "name": "Проничкин С.В."
+                }
+              ],
+              "groups": [
+                {
+                  "id": 6443,
+                  "name": "БПМ-19-3"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": 106,
+                  "name": "К-311"
+                }
+              ],
+              "room_id": 106,
+              "room_name": "К-311",
+              "type": "Лекционные",
+              "in_ceiling": true,
+              "other": null,
+              "other1": null
+            }
+          ]
+        }
+      },
+      "bell_3": {
+        "header": {
+          "type": "bell",
+          "start_lesson": "12:40",
+          "end_lesson": "14:15"
+        },
+        "day_1": {
+          "type": "lesson",
+          "lessons": [
+            {
+              "subject_id": 8670,
+              "subject_name": "Дискретные и нелинейные системы автоматического управления",
+              "teachers": [
+                {
+                  "id": 170357,
+                  "post": "ассистент",
+                  "name": "Каменщиков М.А."
+                }
+              ],
+              "groups": [
+                {
+                  "id": 6443,
+                  "name": "БПМ-19-3"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": 318,
+                  "name": "Б-734"
+                }
+              ],
+              "room_id": 318,
+              "room_name": "Б-734",
+              "type": "Лекционные",
+              "in_ceiling": true,
+              "other": null,
+              "other1": null
+            }
+          ]
+        },
+        "day_2": {
+          "type": "lesson",
+          "lessons": []
+        },
+        "day_3": {
+          "type": "lesson",
+          "lessons": [
+            {
+              "subject_id": 4304,
+              "subject_name": "Функциональный анализ",
+              "teachers": [
+                {
+                  "id": 170108,
+                  "post": "профессор",
+                  "name": "Ласурия Р.А."
+                }
+              ],
+              "groups": [
+                {
+                  "id": 6443,
+                  "name": "БПМ-19-3"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": 318,
+                  "name": "Б-734"
+                }
+              ],
+              "room_id": 318,
+              "room_name": "Б-734",
+              "type": "Лекционные",
+              "in_ceiling": true,
+              "other": null,
+              "other1": null
+            }
+          ]
+        },
+        "day_4": {
+          "type": "lesson",
+          "lessons": [
+            {
+              "subject_id": 3213,
+              "subject_name": "Теория автоматов и алгоритмов",
+              "teachers": [
+                {
+                  "id": 62037,
+                  "post": "доцент",
+                  "name": "Проничкин С.В."
+                }
+              ],
+              "groups": [
+                {
+                  "id": 6443,
+                  "name": "БПМ-19-3"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": 146,
+                  "name": "Г-609"
+                }
+              ],
+              "room_id": 146,
+              "room_name": "Г-609",
+              "type": "Практические",
+              "in_ceiling": true,
+              "other": null,
+              "other1": null
+            }
+          ]
+        },
+        "day_5": {
+          "type": "lesson",
+          "lessons": [
+            {
+              "subject_id": 3277,
+              "subject_name": "Теория случайных процессов",
+              "teachers": [
+                {
+                  "id": 49141,
+                  "post": "доцент",
+                  "name": "Шихеева В.В."
+                }
+              ],
+              "groups": [
+                {
+                  "id": 6443,
+                  "name": "БПМ-19-3"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": 369,
+                  "name": "Б-934"
+                }
+              ],
+              "room_id": 369,
+              "room_name": "Б-934",
+              "type": "Лекционные",
+              "in_ceiling": true,
+              "other": null,
+              "other1": null
+            }
+          ]
+        },
+        "day_6": {
+          "type": "lesson",
+          "lessons": [
+            {
+              "subject_id": 3213,
+              "subject_name": "Теория автоматов и алгоритмов",
+              "teachers": [
+                {
+                  "id": 62037,
+                  "post": "доцент",
+                  "name": "Проничкин С.В."
+                }
+              ],
+              "groups": [
+                {
+                  "id": 6443,
+                  "name": "БПМ-19-3"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": 106,
+                  "name": "К-311"
+                }
+              ],
+              "room_id": 106,
+              "room_name": "К-311",
+              "type": "Лекционные",
+              "in_ceiling": true,
+              "other": null,
+              "other1": null
+            }
+          ]
+        }
+      },
+      "bell_4": {
+        "header": {
+          "type": "bell",
+          "start_lesson": "14:30",
+          "end_lesson": "16:05"
+        },
+        "day_1": {
+          "type": "lesson",
+          "lessons": []
+        },
+        "day_2": {
+          "type": "lesson",
+          "lessons": []
+        },
+        "day_3": {
+          "type": "lesson",
+          "lessons": []
+        },
+        "day_4": {
+          "type": "lesson",
+          "lessons": [
+            {
+              "subject_id": 8670,
+              "subject_name": "Дискретные и нелинейные системы автоматического управления",
+              "teachers": [
+                {
+                  "id": 170357,
+                  "post": "ассистент",
+                  "name": "Каменщиков М.А."
+                }
+              ],
+              "groups": [
+                {
+                  "id": 6443,
+                  "name": "БПМ-19-3",
+                  "subgroup_id": 11,
+                  "subgroup_name": "1"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": 655,
+                  "name": "А-526"
+                }
+              ],
+              "room_id": 655,
+              "room_name": "А-526",
+              "type": "Лабораторные",
+              "in_ceiling": true,
+              "other": null,
+              "other1": null
+            }
+          ]
+        },
+        "day_5": {
+          "type": "lesson",
+          "lessons": [
+            {
+              "subject_id": 3277,
+              "subject_name": "Теория случайных процессов",
+              "teachers": [
+                {
+                  "id": 49141,
+                  "post": "доцент",
+                  "name": "Шихеева В.В."
+                }
+              ],
+              "groups": [
+                {
+                  "id": 6443,
+                  "name": "БПМ-19-3",
+                  "subgroup_id": 11,
+                  "subgroup_name": "1"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": 204,
+                  "name": "Б-907"
+                }
+              ],
+              "room_id": 204,
+              "room_name": "Б-907",
+              "type": "Лабораторные",
+              "in_ceiling": true,
+              "other": null,
+              "other1": null
+            }
+          ]
+        },
+        "day_6": {
+          "type": "lesson",
+          "lessons": []
+        }
+      },
+      "bell_5": {
+        "header": {
+          "type": "bell",
+          "start_lesson": "16:20",
+          "end_lesson": "17:55"
+        },
+        "day_1": {
+          "type": "lesson",
+          "lessons": []
+        },
+        "day_2": {
+          "type": "lesson",
+          "lessons": []
+        },
+        "day_3": {
+          "type": "lesson",
+          "lessons": []
+        },
+        "day_4": {
+          "type": "lesson",
+          "lessons": [
+            {
+              "subject_id": 4304,
+              "subject_name": "Функциональный анализ",
+              "teachers": [
+                {
+                  "id": 172163,
+                  "post": "доцент",
+                  "name": "Беляков А.О."
+                }
+              ],
+              "groups": [
+                {
+                  "id": 6443,
+                  "name": "БПМ-19-3"
+                }
+              ],
+              "rooms": [
+                {
+                  "id": 742,
+                  "name": "А-328"
+                }
+              ],
+              "room_id": 742,
+              "room_name": "А-328",
+              "type": "Практические",
+              "in_ceiling": true,
+              "other": null,
+              "other1": null
+            }
+          ]
+        },
+        "day_5": {
+          "type": "lesson",
+          "lessons": []
+        },
+        "day_6": {
+          "type": "lesson",
+          "lessons": []
+        }
+      }
+    }
+  }
